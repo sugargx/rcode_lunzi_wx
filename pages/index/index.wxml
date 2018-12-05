@@ -1,0 +1,7 @@
+<view class='box'>
+  <canvas canvas-id='qrcode' style='margin:auto;height:660rpx;width:660rpx;background:#AAA'></canvas>
+  <view>
+   <input bindinput="bindKeyInput" class='url-input' type='text' confirm-type="done" placeholder='内容：' value='{{qrtext}}'></input>
+    <button bindtap='createQRCode' type='primary' class='create-qrcode-btn'>生成二维码</button>
+  </view>
+</view>
